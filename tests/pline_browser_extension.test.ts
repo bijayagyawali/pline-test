@@ -87,6 +87,10 @@ test('Privacy Policy link should navigate to the correct page', async ({ context
   const signInHeader = await page.locator('button:has-text("Sign in")');
   await expect(signInHeader).toBeVisible();
 
+  // Locate the Contact Support link with the specified class and text
+  const contactSupportLink = await page.locator('a.ant-btn-link:has-text("Contact Support")');
+  await expect(contactSupportLink).toBeVisible();
+
   // Keep the page open for 3s to show extension works
   await page.waitForTimeout(3000);
 });
