@@ -1,0 +1,16 @@
+{
+  "name": "pline-test",
+  "version": "0.1.0",
+  "repository": "git@github.com:i-ajayd/pline-test.git",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.3.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}
