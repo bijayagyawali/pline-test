@@ -14,7 +14,7 @@ This project is designed to test the Pline browser extension using Playwright. T
 
 Before setting up the project, ensure you have the following installed:
 
-- Node.js (v16.x or later)
+- Node.js (v18.18 or later)
 - Yarn (v1.x or later)
 
 ## Setup
